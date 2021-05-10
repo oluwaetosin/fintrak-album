@@ -15,10 +15,11 @@ h1{
 
 .card{
     background-color: #044343;
-    width: 370px;
+    width: 350px;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #e4e4e4; 
+    margin-bottom: 40px;
 }
 img{
     width: 100%;
@@ -63,6 +64,9 @@ transform: scale(1.02);
 #cards-holder{
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 80%;
+    justify-content:space-between;
+    padding: 20px;
 }
 form input{
     width: 100%;
@@ -80,6 +84,34 @@ form textarea{
 }
 aside{
     flex:3;
+    padding-top: 20px;
+    padding-right: 20px;
 }
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+.input-wrapper input{
+    height: 50px;
+}
+.input-wrapper textarea{
+    height: 140px;
+}
+.input-wrapper button{
+   width: 100%;
+    display: block;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:#044343;
+    color: #fff;
+    
+}
+
+.input-wrapper button:hover{
+    color: greenyellow;
+}
+
 
 
