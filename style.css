@@ -15,8 +15,9 @@ h1{
 
 .card{
     background-color: #044343;
-    width: 350px;
+    width: 270px;
     padding: 20px;
+    height: 350px;
     border-radius: 10px;
     border: 1px solid #e4e4e4; 
     margin-bottom: 40px;
@@ -24,6 +25,10 @@ h1{
 img{
     width: 100%;
     border-radius: 5px;
+    max-height: 150px;
+    object-fit:cover;
+    height: 150px;
+
 }
 
 .skill-set span{
